@@ -183,6 +183,7 @@ if ( ! class_exists( 'Popup_Maker' ) ) :
 			require_once POPMAKE_DIR . 'includes/class-pum-fields.php';
 
 			require_once POPMAKE_DIR . 'includes/pum-popup-functions.php';
+			require_once POPMAKE_DIR . 'includes/pum-script-functions.php';
 
 			// Triggers
 			require_once POPMAKE_DIR . 'includes/class-pum-trigger.php';
@@ -196,6 +197,7 @@ if ( ! class_exists( 'Popup_Maker' ) ) :
 			require_once POPMAKE_DIR . 'includes/class-pum-cookie.php';
 			require_once POPMAKE_DIR . 'includes/class-pum-cookies.php';
 			require_once POPMAKE_DIR . 'includes/pum-cookie-functions.php';
+
 			if ( is_admin() ) {
 				require_once POPMAKE_DIR . 'includes/admin/popups/class-metabox-cookies.php';
 			}
